@@ -13,7 +13,7 @@ def menu_option():
     while True:
         menu('GERENCIADOR DE PLANILHAS XLSX')
         print('1 - Criar Planilha\n2 - Carregar Planilha\n3 - Ver Planilhas\n4 - Ver conteudo de planilha (Crie ou carregue sua '
-              'planilha primeiro)\n5 - Inserir cabeçalho\n6 - Inserir dados\n\033[031mDIGITE O NÚMERO DA OPÇÃO\033[0;0m')
+              'planilha primeiro)\n5 - Inserir cabeçalho\n6 - Inserir dados\n7 - Sair\n\033[031mDIGITE O NÚMERO DA OPÇÃO\033[0;0m')
         try:
             option = int(input('O que você deseja fazer: '))
         except (TypeError, ValueError):
@@ -37,6 +37,8 @@ def menu_option():
                     print('\033[031mCrie ou carregue um arquivo para inserir dados\033[0;0m')
                 else:
                     a.inserir_dados(res, arq)
+            elif option == 7:
+                break
             else:
                 print('\033[031mErro. Opção Invalida. Digite a opção corretamente.\033[0;0m')
     print('Obrigado. Até a próxima!')
