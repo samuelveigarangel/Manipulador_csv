@@ -1,5 +1,5 @@
 # Manipulador_csv
-Programa que realizar a criação e manipulação de um arquivo .xlsx
+Programa que realiza a criação e manipulação de arquivos .xlsx
 
   - Este programa:
       - Criação de arquivos .xlsx
