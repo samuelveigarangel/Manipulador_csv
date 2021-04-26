@@ -27,7 +27,7 @@ def menu_option():
                 a.ver_planilha(res)
             elif option == 4:
                 if 'res' and 'arq' not in locals():
-                    print('\033[031mCrie ou carregue um arquivo para inserir dados\033[0;0m')
+                    print('\033[031mCrie ou carregue um arquivo para ver dados\033[0;0m')
                 else:
                     a.ver_conteudo(res)
             elif option == 5:
